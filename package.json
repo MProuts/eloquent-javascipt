@@ -1,0 +1,25 @@
+{
+  "name": "eloquent-javascript",
+  "version": "1.0.0",
+  "description": "A little place to scribble notes and exercises as I work through \"Eloquent Javascript\" by Marijn Haverbeke",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MProuts/eloquent-javascipt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MProuts/eloquent-javascipt/issues"
+  },
+  "homepage": "https://github.com/MProuts/eloquent-javascipt#readme"
+}
