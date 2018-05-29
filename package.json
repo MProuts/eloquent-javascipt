@@ -7,9 +7,10 @@
     "babel-cli": "^6.26.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --require babel-register"
   },
   "devDependencies": {
+    "babel-register": "^6.26.0",
     "mocha": "^5.2.0"
   },
   "repository": {
