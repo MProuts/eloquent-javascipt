@@ -1,4 +1,4 @@
-var assert      = require('assert');
+var assert  = require('assert');
 var minimum = require('./exercises/minimum.js');
 var isEven  = require('./exercises/recursion.js');
 
