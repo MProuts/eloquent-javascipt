@@ -20,7 +20,20 @@ describe('#sum()', function() {
 
 describe('#reverseArray()', function() {
   it('returns a new array in reverse order', function() {
-    arr = [1, 2, 3];
+    let arr = [1, 2, 3];
     assert.notEqual(reverseArray(arr), arr);
+    assert.deepEqual(reverseArray(arr), [3, 2, 1]);
+  });
+});
+
+describe('#reverseArrayInPlace()', function() {
+  it('returns the same array', function() {
+    let arr = [1, 2, 3];
+    assert.equal(reverseArrayInPlace(arr), arr);
+  });
+
+  it('reverses order', function() {
+    let arr = [1, 2, 3];
+    assert.deepEqual(reverseArrayInPlace(arr), [3, 2, 1]);
   });
 });
